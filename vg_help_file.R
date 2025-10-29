@@ -1,13 +1,23 @@
 #' Video Game Genre Printer
 #' 
-#' @description This function will print both the genre and the associated number of 
-#' video games in each genre. You will be able to see which genre is more popular than others.
+#' @description This function prints a table showing each video game genre in the dataset 
+#' along with the count of games in that genre. Genres are displayed in 
+#' descending order of popularity.
 #' 
-#' @details 
+#' @details This function takes a data frame containing a column named `genre` and 
+#' calculates the number of games in each genre. It then arranges the genres 
+#' from most common to least common. The output is printed directly to the 
+#' console.
 #' 
-#' @param df The data frame that this function 
+#' @param df A data frame containing a column named `genre` representing 
+#' video game genres.
 #'
-#' @return genre_df 
+#' @return Prints a data frame called `genre_df` with two columns:
+#' \itemize{
+#'   \item \bold{Genre}: The name of the video game genre.
+#'   \item \bold{Count}: The number of games in that genre.
+#' }
+#' The function returns `NULL` invisibly after printing.
 #'
 #' @examples
 #' 
@@ -18,6 +28,8 @@ print_genre <- function(df){
     dplyr::arrange(desc(n))
   
   names(genre_df) <- c("Genre", "Count")
-  result <- print(genre_df)
+  print(genre_df)
+  invisible(genre_df)
 }
+
 
