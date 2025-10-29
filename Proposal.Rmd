@@ -1,0 +1,15 @@
+---
+title: "SDS 270 Package Proposal"
+author: 
+- name: Campbell Linker
+- name: Danielle Church
+- name: Taylor Knibb
+output: html_document
+date: "2025-10-29"
+---
+Your group will write a proposal and help file centered around the package that will be created. The proposal should address the topic you want your package to center around, what functionality your package will have, and how it will be impactful for users. The help file should be based on a proposed function in that package, where you will have all basic components.
+
+Proposal (15 pts)
+Content: Is your topic extensive enough to create functions/data for? Do you provide possible sources for certain pieces of information in your package?
+Formatting: Is the proposal clear, yet detailed? Is it in some form of a .md file? Was this turned in on time?
+
