@@ -28,9 +28,9 @@ The grading criteria is below:
 
 # Proposal
 
-For the SDS 270 final project, our group proposes to create an R package that will assist in analyzing global video game sales and is centered around a free-to-access dataset containing the global sales of 64,016 video game titles released from 1971 to 2024, which was taken from [Maven Analytics's Data Playground](https://mavenanalytics.io/data-playground/video-game-sales?page=1&pageSize=5). However, the package can also be used for analyzing other datasets of the same topic—provided that the names of the variables remain the same. Not only will this package provide helpful functions for users conducting exploratory data analysis for this dataset (and/or other datasets about global video game sales) but it will also include some fun, customized messages with the help of the `crayon` and `emoji` packages.
+For the SDS 270 final project, our group is proposing an R package that will assist in analyzing trends in global video game sales and development. The creation of this package will be centered around a free-to-access dataset containing the global sales of 64,016 video game titles released from 1971 to 2024, accessed from [Maven Analytics's Data Playground](https://mavenanalytics.io/data-playground/video-game-sales?page=1&pageSize=5). Later into the project, we may incorporate additional datasets regarding global video game sales to build complexity in our functions (e.g., joining a dataset about game characteristics and a dataset about game sales to more closely analyze trends in top-selling games). Functions included in this package may emerge through exploration of previous uses of the data. We plan to look through what kinds of analyses others have done with the primary dataset to see if the functions used to observe the data could be improved and made more efficient.
 
-Examples of functions that may be in the package include but are not limited to: 
+Examples of functions that may be in the package include: 
 
 - printing mean sales of each video game genre
 
@@ -39,3 +39,5 @@ Examples of functions that may be in the package include but are not limited to:
 - calculating the time difference between release dates and last updates; a custom error can be created for video games that don’t have a listed update date
  
 - stating how many video games are in each listed genre (*look at the help file to see what this function looks like*)
+
+Not only will this package provide helpful functions for users conducting exploratory data analysis for this video game data, but it will also include some fun visual elements with the help of the `crayon` and `emoji` packages. Ultimately, this package will contain functions that simplify the exploration of video game sales data.
