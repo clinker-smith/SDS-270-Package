@@ -10,24 +10,6 @@ format:
 date: "2025-10-29"
 ---
 
-::: {.callout-note}
-
-# Instructions
-
-Your group will write a proposal and help file centered around the package that will be created. The proposal should address the topic you want your package to center around, what functionality your package will have, and how it will be impactful for users. The help file should be based on a proposed function in that package, where you will have all basic components.
-
-The grading criteria is below:
-
-**Proposal (15 pts)**
-
-- **Content:** Is your topic extensive enough to create functions/data for? Do you provide possible sources for certain pieces of information in your package?
-
-- **Formatting:** Is the proposal clear, yet detailed? Is it in some form of a `.md` file? Was this turned in on time?
-
-:::
-
-# Proposal
-
 For the SDS 270 final project, our group is proposing an R package that will assist in analyzing trends in global video game sales and development. The creation of this package will be centered around a free-to-access dataset containing the global sales of 64,016 video game titles released from 1971 to 2024, accessed from [Maven Analytics's Data Playground](https://mavenanalytics.io/data-playground/video-game-sales?page=1&pageSize=5). Later into the project, we may incorporate additional datasets regarding global video game sales to build complexity in our functions (e.g., joining a dataset about game characteristics and a dataset about game sales to more closely analyze trends in top-selling games). Functions included in this package may emerge through exploration of previous uses of the data. We plan to look through what kinds of analyses others have done with the primary dataset to see if the functions used to observe the data could be improved and made more efficient.
 
 Examples of functions that may be in the package include: 
