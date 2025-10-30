@@ -4,12 +4,38 @@ author:
 - name: Campbell Linker
 - name: Danielle Church
 - name: Taylor Knibb
-output: html_document
+format:
+  html:
+    embed-resources: true
 date: "2025-10-29"
 ---
+
+::: {.callout-note}
+
+# Instructions
+
 Your group will write a proposal and help file centered around the package that will be created. The proposal should address the topic you want your package to center around, what functionality your package will have, and how it will be impactful for users. The help file should be based on a proposed function in that package, where you will have all basic components.
 
-Proposal (15 pts)
-Content: Is your topic extensive enough to create functions/data for? Do you provide possible sources for certain pieces of information in your package?
-Formatting: Is the proposal clear, yet detailed? Is it in some form of a .md file? Was this turned in on time?
+The grading criteria is below:
 
+**Proposal (15 pts)**
+
+- **Content:** Is your topic extensive enough to create functions/data for? Do you provide possible sources for certain pieces of information in your package?
+
+- **Formatting:** Is the proposal clear, yet detailed? Is it in some form of a `.md` file? Was this turned in on time?
+
+:::
+
+# Proposal
+
+For the SDS 270 final project, our group proposes to create an R package that will assist in analyzing global video game sales and is centered around a free-to-access dataset containing the global sales of 64,016 video game titles released from 1971 to 2024, which was taken from [Maven Analytics's Data Playground](https://mavenanalytics.io/data-playground/video-game-sales?page=1&pageSize=5). However, the package can also be used for analyzing other datasets of the same topic—provided that the names of the variables remain the same. Not only will this package provide helpful functions for users conducting exploratory data analysis for this dataset (and/or other datasets about global video game sales) but it will also include some fun, customized messages with the help of the `crayon` and `emoji` packages.
+
+Examples of functions that may be in the package include but are not limited to: 
+
+- printing mean sales of each video game genre
+
+- reporting the video game with the highest sales number in each country/region
+
+- calculating the time difference between release dates and last updates; a custom error can be created for video games that don’t have a listed update date
+ 
+- stating how many video games are in each listed genre (*look at the help file to see what this function looks like*)
